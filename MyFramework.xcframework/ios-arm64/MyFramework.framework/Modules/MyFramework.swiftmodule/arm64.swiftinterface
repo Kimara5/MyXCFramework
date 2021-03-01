@@ -5,6 +5,7 @@ import Foundation
 @_exported import MyFramework
 import Swift
 @_hasMissingDesignatedInitializers public class MyApi {
+  public func MyApi()
   public func sayHello()
   @objc deinit
 }
