@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license = { :type => "MIT", :text => "MIT License" }
 
     s.platform          = :ios
-    s.source            = { :git => 'https://github.com/Kimara5/MyXCFramework.git', :tag => spec.version } 
+    s.source            = { :git => 'https://github.com/Kimara5/MyXCFramework.git', :tag => s.version } 
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'MyFramework.xcframework'
 end 
