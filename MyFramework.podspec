@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "MyFramework.xcframework"
     s.platform = :ios
     s.swift_version = "5"
-    s.ios.deployment_target  = '11.0'
+    s.ios.deployment_target  = '11.0' 
 end
