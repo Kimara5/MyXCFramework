@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.author             = { "Kimara5" => "anemail@email.com" }
     s.source       = { :git => 'https://github.com/Kimara5/MyXCFramework.git', :tag => s.version }
     s.vendored_frameworks = "MyFramework.xcframework"
-    s.platform = :ios, '12'
+    s.platform = :ios
     s.swift_version = "5"
-    s.ios.deployment_target  = '12' 
+    s.ios.deployment_target  = '11' 
 end
